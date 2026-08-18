@@ -83,6 +83,16 @@ a:hover {
     font-size: 1.1rem;
 }
 
+.heading {
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 10px;
+    padding-top: 15px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
 section {
     background-color: var(--surface);
     border: 1px solid var(--border);
