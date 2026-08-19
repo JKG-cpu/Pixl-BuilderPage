@@ -8,7 +8,18 @@
         <title>JKG - Portfolio</title>
     </head>
     <body>
-        <header class="hero">
+        <nav class="navbar">
+            <div>My Portfolio</div>
+
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#octotrack">OctoTrack</a></li>
+                <li><a href="#pynotecli">PyNoteCLI</a></li>
+                <li><a href="#framex-studio">Framex Studio</a></li>
+            </ul>
+        </nav>
+
+        <header class="hero" id="hero">
             <h1>Hi, I'm JKG 👋</h1>
             <p class="tagline">I build apps and tools in Python.</p>
         </header>
@@ -19,8 +30,8 @@
             </header>
 
             <!-- OctoTrack -->
-            <section class="project" aria-labelledby="project-heading">
-                <h2 id="project-heading">OctoTrack</h2>
+            <section class="project" aria-labelledby="project-heading" id="octotrack">
+                <h2 id="project-octotrack">OctoTrack</h2>
                 <img src="images/octotrack.png" alt="Screenshot of OctoTrack">
                 <p>
                     A command-line tool written in Python for exploring GitHub
@@ -40,8 +51,8 @@
             </section>
 
             <!-- PyNoteCLI -->
-            <section class="project" aria-labelledby="project-heading">
-                <h2 id="project-heading">PyNoteCLI</h2>
+            <section class="project" aria-labelledby="project-heading" id="pynotecli">
+                <h2 id="project-pynotecli">PyNoteCLI</h2>
                 <img src="images/pynotecli.png" alt="Screenshot of PyNoteCLI">
                 <p>
                     A command-line tool written in Python for keeping track of notes
@@ -54,8 +65,8 @@
                 <a href="https://github.com/JKG-cpu/PyNoteCLI" class="btn">View on Github</a>
             </section>
 
-            <section class="project" aria-labelledby="project-heading">
-                <h2 id="project-heading">Framex Studio</h2>
+            <section class="project" aria-labelledby="project-heading" id="framex-studio">
+                <h2 id="project-framex">Framex Studio</h2>
                 <img src="images/framex-studio.png" alt="Screenshot of Framex Studio">
                 <p>
                     A GUI Game engine built entirely in python and pygame-ce
@@ -68,7 +79,7 @@
                 <a href="https://github.com/JKG-cpu/Framex-Studio" class="btn">View on Github</a>
             </section>
 
-            <section class="contact" aria-labelledby="contact-heading">
+            <section class="contact project" aria-labelledby="contact-heading">
                 <h2 id="contact-heading">Get in Touch</h2>
                 <ul class="contact-list">
                     <li>
@@ -87,5 +98,7 @@
         <footer>
             <p>&copy; 2026 JKG</p>
         </footer>
+
+        <script src="script.js"></script>
     </body>
 </html>
