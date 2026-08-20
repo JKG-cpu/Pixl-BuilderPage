@@ -15,7 +15,9 @@ I included 3 of my top projects so far:
 - PyNoteCLI
 - Framex-Studio
 
-For each of these spaces, I included basically what the features are, like what is already included / built on the project.
+For each of these spaces, I included basically what the features are, like what is already included / built on the project (see image below for an example)
+
+![OctoTrack](images/octotrack_picture.png)
 
 ## Running Locally
 
